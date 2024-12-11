@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dicom2npy"
+version = "0.1.0"
+description = ""
+authors = ["giopaik <giopaik@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydicom = "^3.0.1"
+numpy = "^2.2.0"
+matplotlib = "^3.9.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
