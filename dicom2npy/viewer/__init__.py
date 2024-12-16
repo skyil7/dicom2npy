@@ -1,0 +1,1 @@
+from dicom2npy.viewer.image_viewer import render_image
